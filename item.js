@@ -42,7 +42,7 @@ function openInNewWindow(src) {
       newWindow.document.write(`
         <html>
           <head>
-            <title>미디어 보기</title>
+            <title>work</title>
             <style>
               body {
                 margin: 0;
