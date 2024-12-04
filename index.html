@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work</title>
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+  <link rel="stylesheet" href="./item.css">
+  <script src="./item.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+      <h2>폭포</h2>
+      <div class="caption">
+        <p>2024.03</p>
+        <p>Dimensions variable</p>
+      </div>
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <button class="arrow left-arrow" onclick="changeSlide(-1)">&#9664;</button>
+        <div class="gallery-items">
+          <img src="./9_1.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./9_2.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./9_3.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <div class="responsive-media gallery-item media-container">
+            <video src="./waterfall.mp4" autoplay muted loop onclick="openInNewWindow(this.src)"></video>
+          </div>
+          <div class="responsive-media gallery-item media-container">
+            <video src="./9.mp4" autoplay muted loop onclick="openInNewWindow(this.src)"></video>
+          </div>
+        </div>
+        <button class="arrow right-arrow" onclick="changeSlide(1)">&#9654;</button>
+      </div>
+
+      <div class="note">
+        <p>폭포를 바라보면 마치 복잡한 생각들이 정리되는 듯한 느낌을 받았다.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
