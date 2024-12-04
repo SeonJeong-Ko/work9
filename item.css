@@ -142,4 +142,30 @@ p {
   padding-top: 10px;
   padding-bottom: 42px;
   line-height: 2.5;
+  font-size: 16px;
+}
+
+
+/* media */
+@media screen and (max-width: 480px) {
+  #content {
+    padding: 48px 18px;
+    gap: 28px;
+  }
+
+  .arrow {
+    padding: 5px;
+  }
+  
+  .left-arrow {
+    left: 5px;
+  }
+  
+  .right-arrow {
+    right: 5px;
+  }
+
+  .note {
+    font-size: 14px;
+  }
 }
